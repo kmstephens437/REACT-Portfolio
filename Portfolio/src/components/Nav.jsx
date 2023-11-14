@@ -1,17 +1,15 @@
 
 
-
-function Nav() {
+export default function Nav() {
 return (
-<div>
-    <p>
-        Test
-    </p>
+<nav>
+<div className="nav-bar">
+    <h3 className = "nav-name">Kevin Stephens</h3>
 </div>
+</nav>
 )
 }
 
 
-export default Nav.jsx;
 
 
