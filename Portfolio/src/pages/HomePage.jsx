@@ -1,9 +1,9 @@
-import Nav from "../components/Nav.jsx";
+import NavBar from "../components/NavBar/NavBar";
 
 function HomePage () {
     return (
         <div>
-            <Nav />
+            <NavBar />,
         </div>
     )
 }
