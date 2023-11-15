@@ -6,7 +6,7 @@ function NavBar () {
         <a href = "/" className = "ks">Kevin Stephens</a>
         <ul>
             <li>
-                <a href = "#AboutPage">About Me</a>
+                <a href = "/AboutPage">About Me</a>
             </li>
             <li>
                 <a href= "/PortfolioPage">Portfolio</a>

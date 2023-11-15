@@ -1,12 +1,16 @@
-
+import React from "react"
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import HomePage from './pages/HomePage.jsx';
+/*import { createBrowserRouter, RouterProvider } from 'react-router-dom';*/
+import { BrowserRouter } from 'react-router-dom';
+/*import HomePage from './pages/HomePage.jsx';
 import AboutPage from './pages/AboutPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import ContactPage from './pages/ContactPage.jsx';
+import PortfolioPage from "./pages/PortfolioPage";
+import ResumePage from "./pages/ResumePage";
+
 
 
 const router = createBrowserRouter (
@@ -27,12 +31,24 @@ const router = createBrowserRouter (
         {
           index: true,
           element: <AboutPage />
+        },
+        {
+          index: true,
+          element: <PortfolioPage />
+        },
+        {
+          index: true,
+          element: <ResumePage />
         }
       ]
     }
   ]
-)
+)*/
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <React.StrictMode>
+    <BrowserRouter>
+    <App />
+    </BrowserRouter>
+  </React.StrictMode>
 )
