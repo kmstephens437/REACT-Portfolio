@@ -1,8 +1,9 @@
 :root {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQLVwQYe3O5ROaaSY5wyCWp_uMX0SQ0IhLxQ&usqp=CAU");
+  background-image: url(../src/assets/images/image.png);
   background-repeat: no-repeat;
   background-size:cover;
-  min-width: 100vw;
+  /*min-width: 100vw;
   min-height: 100vh;
-  background-position: center center;
+  background-position: center center;*/
+  
 }

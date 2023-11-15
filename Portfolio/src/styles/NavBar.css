@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color:black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.ks {
+    font-size: 3rem;
+}
+
+.nav a {
+    color: inherit;
+}
+
+.nav ul {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display:flex;
+    gap: 10rem;
+}
